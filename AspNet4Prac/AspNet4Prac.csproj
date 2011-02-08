@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{46FDB6EF-2009-43E5-AEAD-4934947C9ECC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AspNet4Prac</RootNamespace>
+    <AssemblyName>AspNet4Prac</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\MyWork\n2cms\Libraries\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="App_Data\ASPNET4.mdf" />
+    <Content Include="App_Data\ASPNET4_log.ldf">
+      <DependentUpon>ASPNET4.mdf</DependentUpon>
+    </Content>
+    <Content Include="AutoStart.aspx" />
+    <Content Include="Chart.aspx" />
+    <Content Include="Cleanfile.aspx" />
+    <Content Include="ClientIDs.aspx" />
+    <Content Include="Feedback.aspx" />
+    <Content Include="GridView.aspx" />
+    <Content Include="HidenDivs.aspx" />
+    <Content Include="HTMLEncode.aspx" />
+    <Content Include="ImpretiveSyntax.aspx" />
+    <Content Include="JQuerySyntax.aspx" />
+    <Content Include="ListControls.aspx" />
+    <Content Include="MetaData.aspx" />
+    <Content Include="NewPage.aspx" />
+    <Content Include="PermenantRedirect.aspx" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="Route1.aspx" />
+    <Content Include="Route2.aspx" />
+    <Content Include="Route3.aspx" />
+    <Content Include="scriptloader.aspx" />
+    <Content Include="SelectiveViewState.aspx" />
+    <Content Include="StateCompression.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="TableFree.aspx" />
+    <Content Include="tablessMenu.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AutoStart.aspx.cs">
+      <DependentUpon>AutoStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AutoStart.aspx.designer.cs">
+      <DependentUpon>AutoStart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chart.aspx.cs">
+      <DependentUpon>Chart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chart.aspx.designer.cs">
+      <DependentUpon>Chart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cleanfile.aspx.cs">
+      <DependentUpon>Cleanfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cleanfile.aspx.designer.cs">
+      <DependentUpon>Cleanfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientIDs.aspx.cs">
+      <DependentUpon>ClientIDs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientIDs.aspx.designer.cs">
+      <DependentUpon>ClientIDs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GridView.aspx.cs">
+      <DependentUpon>GridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridView.aspx.designer.cs">
+      <DependentUpon>GridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HidenDivs.aspx.cs">
+      <DependentUpon>HidenDivs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HidenDivs.aspx.designer.cs">
+      <DependentUpon>HidenDivs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTMLEncode.aspx.cs">
+      <DependentUpon>HTMLEncode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTMLEncode.aspx.designer.cs">
+      <DependentUpon>HTMLEncode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImpretiveSyntax.aspx.cs">
+      <DependentUpon>ImpretiveSyntax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImpretiveSyntax.aspx.designer.cs">
+      <DependentUpon>ImpretiveSyntax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQuerySyntax.aspx.cs">
+      <DependentUpon>JQuerySyntax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQuerySyntax.aspx.designer.cs">
+      <DependentUpon>JQuerySyntax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListControls.aspx.cs">
+      <DependentUpon>ListControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListControls.aspx.designer.cs">
+      <DependentUpon>ListControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MetaData.aspx.cs">
+      <DependentUpon>MetaData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MetaData.aspx.designer.cs">
+      <DependentUpon>MetaData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewPage.aspx.cs">
+      <DependentUpon>NewPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewPage.aspx.designer.cs">
+      <DependentUpon>NewPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PermenantRedirect.aspx.cs">
+      <DependentUpon>PermenantRedirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PermenantRedirect.aspx.designer.cs">
+      <DependentUpon>PermenantRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Route1.aspx.cs">
+      <DependentUpon>Route1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Route1.aspx.designer.cs">
+      <DependentUpon>Route1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Route2.aspx.cs">
+      <DependentUpon>Route2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Route2.aspx.designer.cs">
+      <DependentUpon>Route2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Route3.aspx.cs">
+      <DependentUpon>Route3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Route3.aspx.designer.cs">
+      <DependentUpon>Route3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="scriptloader.aspx.cs">
+      <DependentUpon>scriptloader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="scriptloader.aspx.designer.cs">
+      <DependentUpon>scriptloader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectiveViewState.aspx.cs">
+      <DependentUpon>SelectiveViewState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectiveViewState.aspx.designer.cs">
+      <DependentUpon>SelectiveViewState.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="StateCompression.aspx.cs">
+      <DependentUpon>StateCompression.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StateCompression.aspx.designer.cs">
+      <DependentUpon>StateCompression.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TableFree.aspx.cs">
+      <DependentUpon>TableFree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TableFree.aspx.designer.cs">
+      <DependentUpon>TableFree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tablessMenu.aspx.cs">
+      <DependentUpon>tablessMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tablessMenu.aspx.designer.cs">
+      <DependentUpon>tablessMenu.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1285</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+D:\ASPNET4\AspNet4Prac\AspNet4Prac\bin\AspNet4Prac.dll
+D:\ASPNET4\AspNet4Prac\AspNet4Prac\bin\AspNet4Prac.pdb
+D:\ASPNET4\AspNet4Prac\AspNet4Prac\obj\Debug\ResolveAssemblyReference.cache
+D:\ASPNET4\AspNet4Prac\AspNet4Prac\obj\Debug\AspNet4Prac.dll
+D:\ASPNET4\AspNet4Prac\AspNet4Prac\obj\Debug\AspNet4Prac.pdb
+D:\ASPNET4\AspNet4Prac\AspNet4Prac\bin\System.Data.SQLite.dll
