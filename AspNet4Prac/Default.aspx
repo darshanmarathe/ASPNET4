@@ -31,7 +31,7 @@
 <li><a href="JQuerySyntax.aspx" title="jQuery Syntax for Microsoft Ajax"> jQuery Syntax for Microsoft Ajax	</a></li>
 <li><a href="DataTempLates.aspx" title="AJAX Data Templates">AJAX Data Templates</a>	</li>
 <li><a href="HidenDivs.aspx" href="Hidden Field Divs">Hidden Field Divs</a> 	</li>
-<li>Disabled Control Styling</li>	
+<li><a href="DisabledControlStyle.aspx" title="Disabled Control Styling">Disabled Control Styling</a></li>	
 <li>Introducing the New Chart Control	</li>
 <li>Managing ViewState with ViewStateMode	</li>
 

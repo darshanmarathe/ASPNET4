@@ -64,6 +64,7 @@
     <Content Include="Chart.aspx" />
     <Content Include="Cleanfile.aspx" />
     <Content Include="ClientIDs.aspx" />
+    <Content Include="DisabledControlStyle.aspx" />
     <Content Include="Feedback.aspx" />
     <Content Include="GridView.aspx" />
     <Content Include="HidenDivs.aspx" />
@@ -169,6 +170,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisabledControlStyle.aspx.cs">
+      <DependentUpon>DisabledControlStyle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisabledControlStyle.aspx.designer.cs">
+      <DependentUpon>DisabledControlStyle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Feedback.aspx.cs">
       <DependentUpon>Feedback.aspx</DependentUpon>
