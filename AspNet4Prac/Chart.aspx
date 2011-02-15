@@ -8,10 +8,11 @@
 <h1> Chart Controls</h1>
 <hr />
 <p> Chart controls are introdused in asp.net 4.0 and have some nice inbuild features</p>
-    <asp:Chart ID="Chart11" runat="server" DataSourceID="sqlDs" Width="600px">
+    <asp:Chart ID="Chart11" runat="server" DataSourceID="sqlDs" 
+        Width="600px">
         <series>
-            <asp:Series Name="Series1" ChartType="StackedBar" XValueMember="Year" 
-                YValueMembers="Amount" YValuesPerPoint="2">
+            <asp:Series Name="Series1" ChartType="StackedBar" YValuesPerPoint="2" 
+                XValueMember="Year" YValueMembers="Amount">
             </asp:Series>
         </series>
         <chartareas>
@@ -19,9 +20,11 @@
             </asp:ChartArea>
         </chartareas>
     </asp:Chart>
+
     <asp:SqlDataSource ID="sqlDs" runat="server" 
-        ConnectionString="<%$ ConnectionStrings:ASPNET4ConnectionString %>" 
-        SelectCommand="SELECT * FROM [Stats]"></asp:SqlDataSource>
+ ConnectionString="<%$ ConnectionStrings:ASPNETConnectionString %>" 
+        ProviderName="<%$ ConnectionStrings:ASPNETConnectionString.ProviderName %>"
+                SelectCommand="SELECT * FROM [Stats]"></asp:SqlDataSource>
         <h2>Code</h2>
 <code>
 <!-- Start block. Created with Code4Blog for Microsoft Visual Studio 2010. Copyright (c)2010 Vitaly Zayko http://zayko.net -->

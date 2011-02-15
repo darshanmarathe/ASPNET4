@@ -42,8 +42,9 @@
 
 
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
-        ConnectionString="<%$ ConnectionStrings:ASPNET4ConnectionString %>" 
-        SelectCommand="SELECT * FROM [Jets] WHERE ([Country] = @Country)">
+        ConnectionString="<%$ ConnectionStrings:ASPNETConnectionString %>" 
+        SelectCommand="SELECT * FROM [Jets] WHERE ([Country] = ?)" 
+        ProviderName="<%$ ConnectionStrings:ASPNETConnectionString.ProviderName %>">
         <SelectParameters>
             <asp:RouteParameter Name="Country" RouteKey="type" Type="String" />
         </SelectParameters>

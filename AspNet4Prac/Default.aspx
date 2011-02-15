@@ -29,7 +29,7 @@
 <li> <a href="ImpretiveSyntax.aspx" title="Imperative JavaScript Syntax" >Imperative JavaScript Syntax</a></li>	
 <li><a href="scriptloader.aspx" title="The ScriptLoader"> The ScriptLoader	</a></li>
 <li><a href="JQuerySyntax.aspx" title="jQuery Syntax for Microsoft Ajax"> jQuery Syntax for Microsoft Ajax	</a></li>
-<li>AJAX Data Templates	</li>
+<li><a href="DataTempLates.aspx" title="AJAX Data Templates">AJAX Data Templates</a>	</li>
 <li><a href="HidenDivs.aspx" href="Hidden Field Divs">Hidden Field Divs</a> 	</li>
 <li>Disabled Control Styling</li>	
 <li>Introducing the New Chart Control	</li>
