@@ -32,8 +32,7 @@
 <li><a href="DataTempLates.aspx" title="AJAX Data Templates">AJAX Data Templates</a>	</li>
 <li><a href="HidenDivs.aspx" href="Hidden Field Divs">Hidden Field Divs</a> 	</li>
 <li><a href="DisabledControlStyle.aspx" title="Disabled Control Styling">Disabled Control Styling</a></li>	
-<li>Introducing the New Chart Control	</li>
-<li>Managing ViewState with ViewStateMode	</li>
+<li><a href="ViewStateMode.aspx" title="Managing ViewState with ViewStateMode"> Managing ViewState with ViewStateMode	</a></li>
 
  </ul>
 

@@ -298,3 +298,11 @@ div.accountInfo
     text-align: right;
     padding-right: 10px;
 }
+
+.aspNetDisabled
+{
+background-color:Red;
+font-style:italic;
+border:5px solid yellow;
+text-align:center;
+}

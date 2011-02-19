@@ -13,5 +13,18 @@ namespace AspNet4Prac
         {
 
         }
+
+        protected void btnEnable_Click(object sender, EventArgs e)
+        {
+            txtControl.Text = "Control Is Enabled";
+            txtControl.Enabled = true;
+
+        }
+
+        protected void btnDisable_Click(object sender, EventArgs e)
+        {
+            txtControl.Text = "Control Is Disabled";
+            txtControl.Enabled = false;
+        }
     }
 }

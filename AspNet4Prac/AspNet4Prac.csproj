@@ -90,6 +90,7 @@
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="TableFree.aspx" />
     <Content Include="tablessMenu.aspx" />
+    <Content Include="ViewStateMode.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -314,6 +315,13 @@
     </Compile>
     <Compile Include="tablessMenu.aspx.designer.cs">
       <DependentUpon>tablessMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewStateMode.aspx.cs">
+      <DependentUpon>ViewStateMode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewStateMode.aspx.designer.cs">
+      <DependentUpon>ViewStateMode.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
