@@ -2,8 +2,41 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-<iframe src="https://spreadsheets.google.com/embeddedform?formkey=dGRrRFM1dTNzSkczZHZSQkVYY3lGTHc6MQ" 
-width="100%" height="831" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<table width="100%">
+<tr>
+    <td Width="30%">Your Name</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Email Address</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Web Address</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Subject</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Message</td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+</table>
 
 
 </asp:Content>

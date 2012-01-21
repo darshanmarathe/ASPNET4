@@ -10,17 +10,17 @@
     <p>
        Created by Darshan Marathe
 
-       Follow me on <a href="http://www.facebook.com/profile.php?id=1218765530" title="Facebook">
+       Follow me on <a target="_blank" href="http://www.facebook.com/profile.php?id=1218765530" title="Facebook">
        Facebook
        </a>
        <br />
-       Follow me on <a href="http://www.twitter.com/darshanmarathe/" title="Twitter">
+       Follow me on <a target="_blank" href="http://www.twitter.com/darshanmarathe/" title="Twitter">
        Twitter
        </a>
        <br />
        OR 
        <br />
-       Visit my blog <a href="http://www.darshanmarathe.blogspot.com" title="blog">
+       Visit my blog <a target="_blank" href="http://www.darshanmarathe.blogspot.com" title="blog">
        www.darshanmarathe.blogspot.com
        </a>
 
@@ -39,7 +39,7 @@
 
     </p>
     <p>
-        Also follow this project on <a href="https://github.com/darshanmarathe/ASPNET4">Github</a>
+        Also follow this project on <a target="_blank" href="https://github.com/darshanmarathe/ASPNET4">Github</a>
 
 
 
