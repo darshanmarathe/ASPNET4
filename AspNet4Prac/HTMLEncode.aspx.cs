@@ -9,7 +9,7 @@ namespace AspNet4Prac
 {
     public partial class HTMLEncode : System.Web.UI.Page
     {
-        string Script = "<script> alert('hi') </script>";
+        string Script = "<header> Darshan </header>";
         
         protected void btnSafecode_Click(object sender, EventArgs e)
         {

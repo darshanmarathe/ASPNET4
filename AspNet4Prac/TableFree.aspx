@@ -70,8 +70,9 @@ Table Free Templated Controls
         </ItemTemplate>
     </asp:FormView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
-        ConnectionString="<%$ ConnectionStrings:ASPNET4ConnectionString %>" 
-        SelectCommand="SELECT * FROM [Jets]"></asp:SqlDataSource>
+        ConnectionString="<%$ ConnectionStrings:ASPNETConnectionString %>" 
+        SelectCommand="SELECT * FROM [Jets]" 
+        ProviderName="<%$ ConnectionStrings:ASPNETConnectionString.ProviderName %>"></asp:SqlDataSource>
 <hr />
 
 <br />

@@ -9,9 +9,9 @@
 <hr />
 <p> Chart controls are introdused in asp.net 4.0 and have some nice inbuild features</p>
     <asp:Chart ID="Chart11" runat="server" DataSourceID="sqlDs" 
-        Width="600px">
+        Width="600px" onload="Chart11_Load">
         <series>
-            <asp:Series Name="Series1" ChartType="StackedBar" YValuesPerPoint="2" 
+            <asp:Series Name="Series1" ChartType="Point" YValuesPerPoint="2" 
                 XValueMember="Year" YValueMembers="Amount">
             </asp:Series>
         </series>

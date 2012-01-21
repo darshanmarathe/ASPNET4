@@ -41,8 +41,9 @@
         <SortedDescendingHeaderStyle BackColor="#4870BE" />
     </asp:GridView>
     <asp:SqlDataSource ID="DsJets" runat="server" 
-        ConnectionString="<%$ ConnectionStrings:ASPNET4ConnectionString %>" 
-        SelectCommand="SELECT * FROM [Jets]"></asp:SqlDataSource>
+        ConnectionString="<%$ ConnectionStrings:ASPNETConnectionString %>" 
+        SelectCommand="SELECT * FROM [Jets]" 
+        ProviderName="<%$ ConnectionStrings:ASPNETConnectionString.ProviderName %>"></asp:SqlDataSource>
 
 
         <h2>

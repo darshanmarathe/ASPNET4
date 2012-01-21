@@ -13,5 +13,10 @@ namespace AspNet4Prac
         {
 
         }
+
+        protected void Chart11_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
