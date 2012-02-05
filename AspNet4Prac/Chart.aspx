@@ -8,10 +8,11 @@
 <h1> Chart Controls</h1>
 <hr />
 <p> Chart controls are introdused in asp.net 4.0 and have some nice inbuild features</p>
+
     <asp:Chart ID="Chart11" runat="server" DataSourceID="sqlDs" 
         Width="600px" onload="Chart11_Load">
         <series>
-            <asp:Series Name="Series1" ChartType="Point" YValuesPerPoint="2" 
+            <asp:Series Name="Series1" ChartType="StackedBar" YValuesPerPoint="2" 
                 XValueMember="Year" YValueMembers="Amount">
             </asp:Series>
         </series>
@@ -56,6 +57,11 @@
 
 <h2>Video</h2>
 <hr />
-<object style="width:400px;height:338px;" autoupdate="true" data="data:application/x-silverlight-2," type="application/x-silverlight-2"><param value="2.0.31005.0" name="MinRuntimeVersion"/><param name="source" value="http://www.asp.net/clientbin/mediaplayer/MSCommunities.MediaPlayer.xap" /><param value="videoid=22860" name="InitParams"/><a href="http://go2.microsoft.com/fwlink/?LinkID=114576&amp;v=2.0"><img style="border-width: 0px;" alt="Install Silverlight" src="http://i2.asp.net/common/static-asp/asp.net/videos/silverlight.mediaplayer/slplayer_disabled.png?cdn_id=04302010"/></a></object>
+<a href="http://www.asp.net/web-forms/videos/net-4/chart/aspnet-4-quick-hit-chart-control" target="_blank">
+Play...
+</a>
+
+
+
 
 </asp:Content>

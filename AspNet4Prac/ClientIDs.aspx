@@ -19,7 +19,8 @@
     
     </b>
 
-    <asp:ListView ID="product" runat="server" DataSourceID="XmlDataSource1" ClientIDMode="Predictable" ClientIDRowSuffix="productID">
+    <asp:ListView ID="product" runat="server" DataSourceID="XmlDataSource1" 
+    ClientIDMode="Predictable" ClientIDRowSuffix="productID">
     <ItemTemplate>
     Product Id  : <asp:Label ID="productIDLabel" runat="server" Text='<%# Eval("productID") %>'></asp:Label> <br /> 
     Product Name : <asp:Label ID="productNameLabel" runat="server" Text='<%# Eval("productName") %>'></asp:Label><br /><br />
