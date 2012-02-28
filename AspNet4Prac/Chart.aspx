@@ -57,9 +57,14 @@
 
 <h2>Video</h2>
 <hr />
-<a href="http://www.asp.net/web-forms/videos/net-4/chart/aspnet-4-quick-hit-chart-control" target="_blank">
+<a class="play" href="http://www.asp.net/web-forms/videos/net-4/chart/aspnet-4-quick-hit-chart-control" target="_blank">
 Play...
 </a>
+
+
+
+
+
 
 
 

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="Default.aspx.cs" Inherits="AspNet4Prac._Default" %>
+    CodeBehind="Default.aspx.cs" Inherits="AspNet4Prac._Default" ValidateRequest="false" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
@@ -38,6 +38,8 @@
  </ul>
 
 
+
+
  <h2>Examples releted to the VS2010 Improvements</h2>
  <hr />
  <ul>
@@ -51,6 +53,23 @@
 <li>Snippets IntelliSense	</li>
 <li>Use MSBuild to Automate the Compiler & Merge Utilities	</li>
 </ul>
+
+<br />
+<br />
+
+<br />
+    <h2>
+        ASP.NET 4.5 Examples by Darshan Marathe
+    </h2>
+ <hr />
+ <p>Yes........ they are coming soon</p>
+<br />
+<br />
+
+
+ <h2>Examples releted to the VS2012 (Visual Studio 11) Improvements</h2>
+ <hr />
+<p>Yes........ they are coming soon</p>
 
 
 </asp:Content>

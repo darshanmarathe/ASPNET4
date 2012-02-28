@@ -7,5 +7,15 @@
 <hr />
 
 <h2>Code</h2>
+<hr />
+<br />
+
+<h2>Video</h2>
+<hr />
+<a class="play" href="http://www.asp.net/web-forms/videos/net-4/ajax/aspnet-4-quick-hit-ajax-data-templates" target="_blank">
+Play...
+</a>
+
+
 </asp:Content>
 
