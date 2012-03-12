@@ -8,7 +8,16 @@
 <br /><br />
 <h2>Code</h2>
 <hr />
-<p>No Code</p>
+<p>Do a view source to see it on this page</p>
+<!-- Start block. Created with Code4Blog for Microsoft Visual Studio 2010. Copyright (c)2010 Vitaly Zayko http://zayko.net -->
+<div style="color:black;overflow:auto;width:99.5%;">
+<pre style="margin:0em;"> <span style="color:#0000ff">&lt;<span style="color:#800000">div</span><span style="color:#000000">  <span style="color:#ff0000">class<span style="color:#0000ff">=&quot;aspNetHidden&quot;&gt;</span><span style="color:#000000"> </pre>
+<pre style="margin:0em;"> <span style="color:#0000ff">&lt;<span style="color:#800000">input</span><span style="color:#000000">  <span style="color:#ff0000">type<span style="color:#0000ff">=&quot;hidden&quot;</span><span style="color:#000000">  <span style="color:#ff0000">name<span style="color:#0000ff">=&quot;__VIEWSTATE&quot;</span><span style="color:#000000">  <span style="color:#ff0000">id<span style="color:#0000ff">=&quot;__VIEWSTATE&quot;</span><span style="color:#000000">  <span style="color:#ff0000">value<span style="color:#0000ff">=&quot;/wEPDwUKMTY1NDU2MTA1MmRkRihh7N0MTB/7hCgZ4dwyyksk1knFguOUp/NQGmm49DU=&quot;</span><span style="color:#000000">  <span style="color:#0000ff">/&gt;</span><span style="color:#000000"> </pre>
+<pre style="margin:0em;"> <span style="color:#0000ff">&lt;/<span style="color:#800000">div<span style="color:#0000ff">&gt;</span><span style="color:#000000"> </pre>
+<pre style="margin:0em;"> </pre>
+<pre style="margin:0em;"> </pre>
+</div>
+<!-- End block -->
 <br /><br />
 <h2>Video</h2>
 <hr />

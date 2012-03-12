@@ -22,6 +22,15 @@ namespace AspNet4Prac {
         protected global::System.Web.UI.WebControls.Label codeSnippet;
         
         /// <summary>
+        /// codesnippet2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label codesnippet2;
+        
+        /// <summary>
         /// btnSafecode control.
         /// </summary>
         /// <remarks>

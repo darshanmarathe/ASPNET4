@@ -6,7 +6,9 @@
 <hr />
 <p>This will handle the CSS Attacks example of this is given below</p>
 
-<asp:Label id="codeSnippet" runat="server" Text="Click On the buttons to see the code" ></asp:Label><br />
+<asp:Label id="codeSnippet" runat="server" Text="Click On the buttons to see the code" ></asp:Label>
+<br />
+<asp:Label ID="codesnippet2" runat="server" Text="<%:  this.Script %>"></asp:Label>
 <br />
 <asp:Button ID="btnSafecode" runat="server" Text="Safe code" 
         onclick="btnSafecode_Click" />
@@ -26,6 +28,14 @@
 <pre style="margin:0em;"><span style="text-align:right;display:inline-block;width:30px;margin-right:10px;color:black">7:</span>         <span style="color:#ff0000">onclick<span style="color:#0000ff">=&quot;btnUnSafeCode_Click&quot;</span><span style="color:#000000">  <span style="color:#0000ff">/&gt;</pre>
 <pre style="margin:0em;"><span style="text-align:right;display:inline-block;width:30px;margin-right:10px;color:black">8:</span> </pre>
 </div>
+
+Or 
+
+<div style="color:black;overflow:auto;font-family:Arial;font-size:10pt;border: 1px solid black;padding:5px;width:99.5%;"><pre style="margin:0em;"> <span style="color:#0000ff">&lt;<span style="color:#800000">br</span><span style="color:#000000">  <span style="color:#0000ff">/&gt;</span><span style="color:#000000"> </pre>
+<pre style="margin:0em;"> <span style="color:#0000ff">&lt;<span style="color:#800000">asp<span style="color:#0000ff">:<span style="color:#800000">Label</span><span style="color:#000000">  <span style="color:#ff0000">ID<span style="color:#0000ff">=&quot;codesnippet2&quot;</span><span style="color:#000000">  <span style="color:#ff0000">runat<span style="color:#0000ff">=&quot;server&quot;</span><span style="color:#000000">  <span style="color:#ff0000">Text<span style="color:#0000ff">=&quot;</span><span style="color:#000000"> <span style="background:#ffff00"> &lt;%<span style="color:#0000ff"></span>  :</span><span style="color:#000000">   this.Script <span style="background:#ffff00"> %&gt;<span style="color:#0000ff"></span>  &quot;&gt;&lt;/<span style="color:#800000">asp<span style="color:#0000ff">:<span style="color:#800000">Label<span style="color:#0000ff">&gt;</span><span style="color:#000000"> </pre>
+<pre style="margin:0em;"> </pre>
+<pre style="margin:0em;"> </pre>
+</div>
 <!-- End block -->
 
 
@@ -36,7 +46,7 @@
 <h2>Code - CodeBehind file</h2>
 <!-- Start block. Created with Code4Blog for Microsoft Visual Studio 2010. Copyright (c)2010 Vitaly Zayko http://zayko.net -->
 <div style="color:black;overflow:auto;font-family:Arial;font-size:10pt;border: 1px solid black;padding:5px;width:99.5%;">
-<pre style="margin:0em;"><span style="text-align:right;display:inline-block;width:30px;margin-right:10px;color:black">1:</span> <span style="color:#0000ff">string</span><span style="color:#000000">  Script = <span style="color:#a31515">&quot;&lt;script&gt;&#39;) &lt;/script&gt;&quot;</span><span style="color:#000000"> ;</pre>
+<pre style="margin:0em;"><span style="text-align:right;display:inline-block;width:30px;margin-right:10px;color:black">1:</span> <span style="color:#0000ff">string</span><span style="color:#000000">  Script = <span style="color:#a31515">&quot;&lt;header&gt; Darshan &lt;/header&gt;&quot;</span><span style="color:#000000"> ;</pre>
 <pre style="margin:0em;"><span style="text-align:right;display:inline-block;width:30px;margin-right:10px;color:black">2:</span>         </pre>
 <pre style="margin:0em;"><span style="text-align:right;display:inline-block;width:30px;margin-right:10px;color:black">3:</span>         <span style="color:#0000ff">protected</span><span style="color:#000000">  <span style="color:#0000ff">void</span><span style="color:#000000">  btnSafecode_Click(<span style="color:#0000ff">object</span><span style="color:#000000">  sender, <span style="color:#2b91af">EventArgs</span><span style="color:#000000">  e)</pre>
 <pre style="margin:0em;"><span style="text-align:right;display:inline-block;width:30px;margin-right:10px;color:black">4:</span>         <span style="color:#000000">{</span></pre>
