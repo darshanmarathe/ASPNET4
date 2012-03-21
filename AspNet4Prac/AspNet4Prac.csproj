@@ -69,6 +69,7 @@
     <Content Include="Chart.aspx" />
     <Content Include="Cleanfile.aspx" />
     <Content Include="ClientIDs.aspx" />
+    <Content Include="DataTempLates.aspx" />
     <Content Include="DisabledControlStyle.aspx" />
     <Content Include="Feedback.aspx" />
     <Content Include="GridView.aspx" />
@@ -173,6 +174,10 @@
     </Compile>
     <Compile Include="ClientIDs.aspx.designer.cs">
       <DependentUpon>ClientIDs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataTempLates.aspx.cs">
+      <DependentUpon>DataTempLates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
