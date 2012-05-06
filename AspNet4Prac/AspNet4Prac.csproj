@@ -80,6 +80,7 @@
     <Content Include="images\captcha\captcha2.jpg" />
     <Content Include="images\captcha\captcha3.jpg" />
     <Content Include="ImpretiveSyntax.aspx" />
+    <Content Include="VS2010\intellisense.Aspx" />
     <Content Include="JQuerySyntax.aspx" />
     <Content Include="ListControls.aspx" />
     <Content Include="MetaData.aspx" />
@@ -101,6 +102,9 @@
     <Content Include="TableFree.aspx" />
     <Content Include="tablessMenu.aspx" />
     <Content Include="ViewStateMode.aspx" />
+    <Content Include="VS2010\CodeOptProfile.aspx" />
+    <Content Include="VS2010\CodeSearchandView.aspx" />
+    <Content Include="VS2010\MultiMonetorSupport.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -231,6 +235,13 @@
     <Compile Include="ImpretiveSyntax.aspx.designer.cs">
       <DependentUpon>ImpretiveSyntax.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VS2010\intellisense.Aspx.cs">
+      <DependentUpon>intellisense.Aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VS2010\intellisense.Aspx.designer.cs">
+      <DependentUpon>intellisense.Aspx</DependentUpon>
+    </Compile>
     <Compile Include="JQuerySyntax.aspx.cs">
       <DependentUpon>JQuerySyntax.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -342,6 +353,27 @@
     </Compile>
     <Compile Include="ViewStateMode.aspx.designer.cs">
       <DependentUpon>ViewStateMode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VS2010\CodeOptProfile.aspx.cs">
+      <DependentUpon>CodeOptProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VS2010\CodeOptProfile.aspx.designer.cs">
+      <DependentUpon>CodeOptProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VS2010\CodeSearchandView.aspx.cs">
+      <DependentUpon>CodeSearchandView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VS2010\CodeSearchandView.aspx.designer.cs">
+      <DependentUpon>CodeSearchandView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VS2010\MultiMonetorSupport.aspx.cs">
+      <DependentUpon>MultiMonetorSupport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VS2010\MultiMonetorSupport.aspx.designer.cs">
+      <DependentUpon>MultiMonetorSupport.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

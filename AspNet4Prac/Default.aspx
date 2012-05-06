@@ -43,10 +43,10 @@
  <h2>Examples releted to the VS2010 Improvements</h2>
  <hr />
  <ul>
-<li>Code Optimized Profile	</li>
-<li>Code Search View Hierarchy	</li>
-<li>IntelliSense Smart Lists	</li>
-<li>Multi-Monitor Support	</li>
+<li><a href="VS2010/CodeOptProfile.aspx"> Code Optimized Profile	</a></li>
+<li> <a href="VS2010/CodeSearchandView.aspx">Code Search View Hierarchy	</a></li>
+<li><a href="VS2010/intellisense.Aspx"> IntelliSense Smart Lists	</a></li>
+<li><a href="VS2010/MultiMonetorSupport.aspx"> Multi-Monitor Support	</a></li>
 <li>New Web Project Template	</li>
 <li>New Multi-Targeting	</li>
 <li>Websites Instead of Web Projects	</li>
