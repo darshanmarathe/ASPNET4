@@ -47,11 +47,10 @@
 <li> <a href="VS2010/CodeSearchandView.aspx">Code Search View Hierarchy	</a></li>
 <li><a href="VS2010/intellisense.Aspx"> IntelliSense Smart Lists	</a></li>
 <li><a href="VS2010/MultiMonetorSupport.aspx"> Multi-Monitor Support	</a></li>
-<li>New Web Project Template	</li>
-<li>New Multi-Targeting	</li>
-<li>Websites Instead of Web Projects	</li>
-<li>Snippets IntelliSense	</li>
-<li>Use MSBuild to Automate the Compiler & Merge Utilities	</li>
+<li><a href="VS2010/NewWebAppTemplate.aspx"> New Web Project Template	</a></li>
+<li><a href="VS2010/NewMultiTargeting.aspx">New Multi-Targeting	</a></li>
+<li><a href="VS2010/WebSitesInstadeOfWebProjects.aspx"> Websites Instead of Web Projects	</a></li>
+<li><a href="VS2010/ImprovedSnippets.aspx">Snippets IntelliSense	</a></li>
 </ul>
 
 <br />
